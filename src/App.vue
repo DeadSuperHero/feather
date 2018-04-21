@@ -2,7 +2,7 @@
   <div id="app">
     <Header/>
     <Sidebar/>
-    <div id="view">
+    <div id="timeline-view">
       <router-view/>
     </div>
   </div>
@@ -43,12 +43,14 @@ html, body {
   border-right: 1px #999 solid;
   padding-top: 1em;
   padding-left: 1em;
+  margin-top: 2em;
 }
 
-#view {
+#timeline-view {
   padding: 1em;
   flex: 1;
   overflow-y: scroll;
+  margin-top: 3em;
 }
 
 a {
