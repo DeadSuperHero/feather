@@ -31,8 +31,19 @@ export default {
 <style scoped>
 article {
   margin-bottom: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  border: 1px solid #ddd;
+  padding: 10px;
+  max-width: 80%;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>
 

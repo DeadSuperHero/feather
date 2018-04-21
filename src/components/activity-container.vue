@@ -100,9 +100,6 @@ export default {
 <style>
 .activity-content {
   clear: both;
-  border: 1px solid #bdbdbd;
-  border-radius: 3px;
-  padding: 10px;
 }
 
 .activity-content p {
